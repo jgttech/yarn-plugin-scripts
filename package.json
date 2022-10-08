@@ -29,13 +29,13 @@
     "postpack": "pinst --enable",
     "pre-commit": "lint-staged",
     "build": "builder build plugin",
-    "lint": "eslint --fix"
+    "lint": "eslint --ext .ts . --fix"
   },
   "dependencies": {
-    "clipanion": "^3.2.0-rc.12",
-    "typanion": "^3.12.0",
     "@yarnpkg/cli": "^3.2.4",
     "@yarnpkg/core": "^3.2.5",
-    "@yarnpkg/shell": "^4.0.0-rc.22"
+    "@yarnpkg/shell": "^4.0.0-rc.22",
+    "clipanion": "^3.2.0-rc.12",
+    "typanion": "^3.12.0"
   }
 }

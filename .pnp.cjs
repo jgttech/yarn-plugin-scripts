@@ -39,7 +39,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["clipanion", "virtual:d4ffda58ae239d90fec342c06dde19e3699561684e248d7da09a5a9983df03dc400b1e564759e1add435eb555984996a9c0d8a9084663cf86637f6eac647f133#npm:3.2.0-rc.12"],\
             ["eslint", "npm:8.25.0"],\
             ["husky", "npm:8.0.1"],\
-            ["js-yaml", "npm:4.1.0"],\
             ["lint-staged", "npm:13.0.3"],\
             ["pinst", "npm:3.0.0"],\
             ["typanion", "npm:3.12.0"],\
@@ -4169,7 +4168,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["clipanion", "virtual:d4ffda58ae239d90fec342c06dde19e3699561684e248d7da09a5a9983df03dc400b1e564759e1add435eb555984996a9c0d8a9084663cf86637f6eac647f133#npm:3.2.0-rc.12"],\
             ["eslint", "npm:8.25.0"],\
             ["husky", "npm:8.0.1"],\
-            ["js-yaml", "npm:4.1.0"],\
             ["lint-staged", "npm:13.0.3"],\
             ["pinst", "npm:3.0.0"],\
             ["typanion", "npm:3.12.0"],\
