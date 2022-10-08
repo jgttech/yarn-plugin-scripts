@@ -39,4 +39,4 @@ yarn plugin import https://github.com/jgttech/yarn-plugin-scripts/1.0.0/bundles/
 
 ## License
 
-FOSS - No AI analytics allowed. Stay away from my source code Big Tech!
+FOSS - No AI analytics allowed. Read my LICENSE file. Stay away from my source code Big Tech!
