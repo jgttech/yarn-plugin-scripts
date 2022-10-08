@@ -11,7 +11,7 @@ yarn scripts <script_name>
 ## Install
 
 ```bash
-yarn plugin import https://github.com/jgttech/yarn-plugin-scripts/bundles/@yarnpkg/plugin-scripts.js
+yarn plugin import https://github.com/jgttech/yarn-plugin-scripts/1.0.0/bundles/@yarnpkg/plugin-scripts.js
 ```
 
 ---
