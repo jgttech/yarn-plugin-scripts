@@ -31,7 +31,8 @@
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
     "pre-commit": "lint-staged",
-    "build": "builder build plugin"
+    "build": "builder build plugin",
+    "lint": "eslint --fix"
   },
   "dependencies": {
     "clipanion": "^3.2.0-rc.12",
