@@ -1,6 +1,7 @@
 {
   "name": "yarn-plugin-scripts",
   "version": "1.0.0",
+  "license": "License-LICENSE",
   "packageManager": "yarn@3.2.4",
   "description": "A Yarn v3 plugin for writing more robust scripts using '.yarnrc.yml'.",
   "keywords": [
