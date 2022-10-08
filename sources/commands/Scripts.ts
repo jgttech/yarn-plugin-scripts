@@ -22,7 +22,6 @@ export class Scripts extends BaseCommand {
     if (scripts && hasScript && !isDlx) {
       const commands = scripts[this.script];
 
-      this.context.stdout.write(`Running script: "${this.script}"\n`);
       commands.forEach(cmd => {
         shx(cmd);
       });
