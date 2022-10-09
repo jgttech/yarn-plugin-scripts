@@ -18,12 +18,35 @@ yarn plugin import https://raw.githubusercontent.com/jgttech/yarn-plugin-scripts
 
 ## Usage
 
+You can create custom scripts in the `.yarnrc.yml` file and invoke them through the `scripts` namespace. For example, if I had a script called `hello` and I wanted to invoke it, I just run `yarn scripts hello`.
+
+Beyond that, there are lifecycle hooks as well, please see the section on that.
+
+---
+
+## Lifecycle Scripts
+
+These hooks are designed to follow the Yarn 3 hooks and allow them to be invoked, automatically, though certain conditions.
+
+1. ***afterAllInstalled***: This gets run, as the name suggests, once all depdnencies are installed. It is, effectively, a lifecycle around Yarn 3 hooks.
+2. *More may be added later*
+
+---
+
+## Custom Scripts
+
+This shows you how to add custom scripts.
+
 1. Add a `scripts` section in the root on `.yarnrc.yml` and add a script to invoke.
    1. Example:
       ```yaml
       # .yarnrc.yml
 
       scripts:
+        afterAllInstalled:
+          - echo "1 Things to do after a yarn install".
+          - echo "2 Things to do after a yarn install".
+          - echo "3 Things to do after a yarn install".
         hello:
           - echo "This is awesome!"
           - echo "Hello!"
