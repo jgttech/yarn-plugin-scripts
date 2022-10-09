@@ -13,7 +13,7 @@ export interface ExecScript {
  * @param {string} script The script the user is trying to invoke.
  * @returns {void | number} Exit code
  */
-export const execScripts: ExecScript = (config: Configuration, script, throwable) => {
+export const execScripts: ExecScript = (config, script, throwable) => {
   const isDlx = config.projectCwd?.endsWith(`dlx-${process.pid}`);
   const scripts = config.get('scripts');
   const hasScript = !!scripts[script] || false;
