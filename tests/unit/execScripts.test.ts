@@ -1,4 +1,3 @@
-/* eslint @typescript-eslint/no-unsafe-return: 0 */
 import { Configuration } from '@yarnpkg/core';
 import { YarnrcScripts } from '../../sources/models';
 import { execScripts } from '../../sources/utils';
@@ -18,7 +17,7 @@ const scripts: YarnrcScripts = {
 
 const makeConfiguration: MakeConfiguration = scripts => ({
   values: new Map([['scripts', scripts]]),
-  get(key: string): YarnrcScripts {
+  get(key: string) {
     if (!this.values.has(key))
       throw new Error(`Invalid configuration key "${key}"`);
 

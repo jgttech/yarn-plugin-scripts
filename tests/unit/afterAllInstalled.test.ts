@@ -1,4 +1,3 @@
-// eslint-disable @typescript-eslint/no-unsafe-return
 import { Configuration, Project } from '@yarnpkg/core';
 import { YarnrcScripts } from '../../sources/models';
 import { afterAllInstalled } from '../../sources/hooks';
