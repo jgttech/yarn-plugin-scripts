@@ -1,10 +1,14 @@
 import { Plugin } from '@yarnpkg/core';
-import * as Commands from './commands';
-import { configuration } from './configuration';
+import { configuration } from './utils';
+import { ScriptsCommand } from './commands';
+import { afterAllInstalled } from './hooks';
 
 const plugin: Plugin = {
   configuration,
-  commands: [Commands.Scripts]
+  commands: [ ScriptsCommand ],
+  hooks: {
+    afterAllInstalled
+  }
 };
 
 export default plugin;

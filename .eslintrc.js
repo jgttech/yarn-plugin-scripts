@@ -27,6 +27,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking'
   ],
   rules: {
+    '@typescript-eslint/no-unsafe-return': 0,
     'class-methods-use-this': 0,
     'import/prefer-default-export': 0,
     'import/no-extraneous-dependencies': 0,

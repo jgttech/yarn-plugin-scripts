@@ -1,5 +1,5 @@
 import { ConfigurationDefinitionMap, SettingsType } from '@yarnpkg/core';
-import type { YarnrcScripts } from './models';
+import type { YarnrcScripts } from '../models';
 
 /**
  * Extend ".yarnrc.yml" to allow "scripts" key.

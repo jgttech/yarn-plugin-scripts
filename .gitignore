@@ -43,3 +43,6 @@ yarn-error.log*
 .turbo
 .env
 .npmrc
+
+# Ignore any pnp files created when running tests.
+/tests/fixtures/**/*.pnp.cjs

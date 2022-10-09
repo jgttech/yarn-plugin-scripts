@@ -1,6 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "include": [
+    "!sources/**/*/index.ts",
+    "!tests/**/*/index.ts",
+    "!tests/**/*/helpers.ts",
+    "tests",
     "sources"
   ],
   "compilerOptions": {

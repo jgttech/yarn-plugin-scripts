@@ -1,1 +1,1 @@
-export { Scripts } from './Scripts';
+export { ScriptsCommand } from './ScriptsCommand';

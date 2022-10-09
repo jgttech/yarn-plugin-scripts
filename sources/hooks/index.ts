@@ -1,0 +1,1 @@
+export { afterAllInstalled } from './afterAllInstalled';
